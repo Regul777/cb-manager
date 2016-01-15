@@ -1,6 +1,6 @@
 {
   "name": "cb-manager",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JavaScript callbacks, timeouts(setTimeout) and intervals(setInterval) manager",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,9 @@
     "interval",
     "setInterval",
     "callback",
-    "manager"
+    "manager",
+    "timeout manager",
+    "callback manager"
   ],
   "author": "Yakovenko Dmitriy (https://github.com/Regul777)",
   "license": "MIT",
