@@ -44,5 +44,4 @@ http.get(options, cmb.cb(function(res) {
 
 // Block callback execution
 cmb.clearAll();
-
 ```
