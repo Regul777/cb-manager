@@ -27,12 +27,12 @@ var interval = cbm.interval(function(value) {
 // Also you can use equal simple alias cbm.cb(...)
 var cb = cbm.callback(function(value) {
   console.log('callback value = ' + value)
-}, null, 'value')
+})
 
 cbm.clear(timeout) // clear the timeout
 cbm.clear(interval) // clear the interval
 cbm.clear(cb) // block callback execution
-cb() // No reaction, because callback is blocked
+cb('value') // No reaction, because callback is blocked
 
 cbm.clearAll() // clear all timeouts, intervals and block all callbacks created by this instance
 

@@ -35,11 +35,11 @@ test('Check callback', function(t) {
 
 	var cb = cbm.callback(function (value) {
 		t.equal(value, 10)
-	}, null, 10)
+	}, null)
 
-	cb();
+	cb(10);
 	cbm.clear(cb);
-	cb();
+	cb(10);
 
 })
 
@@ -57,5 +57,18 @@ test('Check clearAll', function(t) {
 	cb();
 
 	setTimeout(t.pass, 200, 'Everything is empty');
+
+})
+
+test('Check callback arguments', function(t) {
+	t.plan(1)
+
+	var cbm = CallbackManager()
+
+	var cb = cbm.callback(function (value) {
+		t.equal(value, 100, 'Try pass 100 as arguments')
+	})
+
+	cb(100);
 
 })

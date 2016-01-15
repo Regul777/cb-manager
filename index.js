@@ -40,9 +40,9 @@ module.exports = function () {
 		},
 
 		callback: function(fn, context) {
-			var args = [].slice.call(arguments).slice(2)
 			context = (context === undefined ? global : context)
 			var cb = function () {
+				var args = arguments
 				if (callbacks.indexOf(cb) > -1) {
 					fn.apply(context, args)
 				}
