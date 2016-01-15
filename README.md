@@ -20,7 +20,7 @@ var timeout = cbm.timeout(function(value) {
 }, 1000, 'value')
 
 // timeout 1000 ms with 2 repeats
-var t2 = cbm.interval(function(value) {
+var interval = cbm.interval(function(value) {
   console.log('interval value = ' + value)
 }, 1000, 2, 'value')
 
@@ -36,12 +36,14 @@ cb() // No reaction, because callback is blocked
 
 cbm.clearAll() // clear all timeouts, intervals and block all callbacks created by this instance
 
-...
+//...
+
+// Callback usage example
 
 http.get(options, cmb.cb(function(res) {
   ...
 }));
 
-// Block callback execution
+// block callback execution
 cmb.clearAll();
 ```
