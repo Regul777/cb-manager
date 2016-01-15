@@ -1,7 +1,7 @@
 {
   "name": "cb-manager",
-  "version": "1.0.2",
-  "description": "JavaScript callback, timeouts(setTimeout) and intervals(setInterval) manager",
+  "version": "1.0.3",
+  "description": "JavaScript callbacks, timeouts(setTimeout) and intervals(setInterval) manager",
   "main": "index.js",
   "scripts": {
     "test": "node test"
