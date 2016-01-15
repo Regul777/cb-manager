@@ -1,0 +1,30 @@
+{
+  "name": "cb-manager",
+  "version": "1.0.0",
+  "description": "JavaScript Callback, Timeouts, Intervals manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Regul777/cb-manager.git"
+  },
+  "keywords": [
+    "timeout",
+    "setTimeout",
+    "interval",
+    "setInterval",
+    "callback",
+    "manager"
+  ],
+  "author": "Yakovenko Dmitriy (https://github.com/Regul777)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Regul777/cb-manager/issues"
+  },
+  "homepage": "https://github.com/Regul777/cb-manager#readme",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
