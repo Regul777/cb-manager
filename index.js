@@ -86,5 +86,8 @@ module.exports = function () {
 		}
 	}
 
+	// Simple alias
+	CallbackManager.cb = CallbackManager.callback;
+
 	return CallbackManager
 }
