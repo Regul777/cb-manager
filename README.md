@@ -1,6 +1,6 @@
-# timeouts and intervals
+# Callback timeouts and intervals manager
 
-clean up all timeouts and intervals at once
+clean up all callbacks, timeouts and intervals at once
 
 ### Install
 
